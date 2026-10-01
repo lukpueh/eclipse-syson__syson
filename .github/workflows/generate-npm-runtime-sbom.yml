@@ -79,3 +79,4 @@ jobs:
           sbom-file: ${{ env.PRODUCT_PATH }}/bom.json
           product-name: "SysON - Frontend Runtime"
           product-version: ${{ steps.version.outputs.PROJECT_VERSION }}
+          staging: true

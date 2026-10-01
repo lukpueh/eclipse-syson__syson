@@ -71,3 +71,4 @@ jobs:
           sbom-file: ${{ env.PRODUCT_PATH }}/target/bom.json
           product-name: "SysON - Backend"
           product-version: ${{ steps.version.outputs.PROJECT_VERSION }}
+          staging: true
